@@ -179,7 +179,7 @@ class Player(Entity):
 
 class Enemy(Entity):
 	def __init__(self, **kwargs):
-		super().__init__(parent=shootables_parent, model='cube', texture='zombie', scale=2.5, origin_y=-.5,
+		super().__init__(parent=shootables_parent, model='zombie', texture='zombie', scale=2.5, origin_y=-.5,
 		                 collider='box', **kwargs)
 		self.health_bar = Entity(parent=self, y=1.2, model='cube', color=color.red, world_scale=(1.5, .1, .1))
 		self.max_hp = 50
