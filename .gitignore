@@ -8,8 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-.ursina.build/
-.idea/
+
+.idea
 build/
 develop-eggs/
 dist/
